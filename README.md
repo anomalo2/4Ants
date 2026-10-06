@@ -1,0 +1,1 @@
+Deep beneath the surface, a young colony is coming to life. Food must be carried, tunnels must be crossed, and not every path stays open for long. One ant can only go so far before another must take its place. As you move deeper into the hive, each transfer brings a new path, a new obstacle, and one step closer to the Queen. The colony is growing and it is counting on you.
