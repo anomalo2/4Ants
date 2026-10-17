@@ -5,9 +5,20 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Terrai.unity
+    guid: 98df430f995299046a072dcd8c245486
+  - enabled: 1
+    path: Assets/Scenes/TunnelScene.unity
+    guid: 690c2fc91019a954bb4afdfa4e4418ed
+  - enabled: 1
+    path: Assets/Scenes/QueenChamberScene.unity
+    guid: 014309ec6ea4a3d469b7653f9bdebf98
+  - enabled: 1
+    path: Assets/Scenes/FoodChamberScene.unity
+    guid: 70192e447dc55bb439f71639f694561a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  m_UseUCBPForAssetBundles: 0

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: dff77513182a11c4ca71b9095039318d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 138995
+  packageName: Mine - Stylized Fantasy Environment
+  packageVersion: 1.3
+  assetPath: Assets/Holotna/Mine/Shaders/VegetationSingleColor.shadergraph
+  uploadId: 738204
