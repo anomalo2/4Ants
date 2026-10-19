@@ -3,16 +3,20 @@ using UnityEngine;
 public class Ant : MonoBehaviour
 {
     public GameObject ant;
+    public GameObject antManager;
+    private GameObject oldAnt;
 
+
+    private void Start()
+    {
+        oldAnt = antManager.GetComponent<OldAnt>().oldAnt = ant;
+    }
     public void HideAnt()
     {
-        if (ant.activeInHierarchy)
-        {
-            ant.SetActive(false);
-        }
-        else
-        {
-            ant.SetActive(true);
-        }
+
+        ant.SetActive(false);
+        oldAnt.SetActive(true);
+
+        oldAnt = ant;
     }
 }

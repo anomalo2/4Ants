@@ -447,6 +447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ant
   ant: {fileID: 1846704718463393622}
+  antManager: {fileID: 0}
 --- !u!1 &344466101843858293
 GameObject:
   m_ObjectHideFlags: 0
