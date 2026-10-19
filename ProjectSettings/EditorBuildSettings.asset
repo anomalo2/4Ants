@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/BadAntStart.unity
     guid: 1e8531120e464644e9f1bdecffa9abb2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AntEnvTest.unity
     guid: 1c1990a6dadebc54caf4e961e3abb9d8
+  - enabled: 1
+    path: Assets/Scenes/AntEnvTest 1.unity
+    guid: ab17be2afe37d7645aac89d692f4ef5b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8bd38ba6219df5c49a0ebb29314c67cc, type: 2}
