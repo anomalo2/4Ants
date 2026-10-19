@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TeleportTest.unity
     guid: b712a033441f7ac4f81e89e0cfe90a26
+  - enabled: 1
+    path: Assets/Scenes/AntStart.unity
+    guid: 0bf55ba7562f30d4aaec15eb181a623b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8bd38ba6219df5c49a0ebb29314c67cc, type: 2}
