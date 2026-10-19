@@ -7819,6 +7819,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1605440161127892852, guid: 2e73450007fb99e45a0720f901336022, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1236106209}
+    - targetCorrespondingSourceObject: {fileID: 1605440161127892852, guid: 2e73450007fb99e45a0720f901336022, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1236106211}
   m_SourcePrefab: {fileID: 100100000, guid: 2e73450007fb99e45a0720f901336022, type: 3}
 --- !u!1 &1236106208 stripped
 GameObject:
@@ -7940,6 +7943,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1236106211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236106208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5306c5bbc71d96498b35af48ca69690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UserNoise
+  startupSound: {fileID: 8300000, guid: 5b91b294170bd934c84d98fe6ed344ce, type: 3}
+  teleportSound: {fileID: 8300000, guid: 5b91b294170bd934c84d98fe6ed344ce, type: 3}
 --- !u!1 &1245421566
 GameObject:
   m_ObjectHideFlags: 0
@@ -13410,6 +13427,30 @@ PrefabInstance:
     - target: {fileID: 467471761849169583, guid: 173b9f95e70d93349987237a65d9824e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 742108592586025940, guid: 173b9f95e70d93349987237a65d9824e, type: 3}
+      propertyPath: m_Teleporting.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 742108592586025940, guid: 173b9f95e70d93349987237a65d9824e, type: 3}
+      propertyPath: m_Teleporting.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 742108592586025940, guid: 173b9f95e70d93349987237a65d9824e, type: 3}
+      propertyPath: m_Teleporting.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8300000, guid: 5b91b294170bd934c84d98fe6ed344ce, type: 3}
+    - target: {fileID: 742108592586025940, guid: 173b9f95e70d93349987237a65d9824e, type: 3}
+      propertyPath: m_Teleporting.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 742108592586025940, guid: 173b9f95e70d93349987237a65d9824e, type: 3}
+      propertyPath: m_Teleporting.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 742108592586025940, guid: 173b9f95e70d93349987237a65d9824e, type: 3}
+      propertyPath: m_Teleporting.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Ant, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4015915839045355401, guid: 173b9f95e70d93349987237a65d9824e, type: 3}
       propertyPath: m_Enabled
