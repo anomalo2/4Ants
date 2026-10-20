@@ -21,6 +21,7 @@ public class Ant : MonoBehaviour
         GameObject oldAnt = antManager.GetComponent<OldAnt>().oldAnt;
 
         oldAnt.transform.parent.position = new Vector3(cameraTransform.position.x, 0, cameraTransform.position.z);
+        oldAnt.transform.parent.rotation = cameraTransform.rotation;
 
         ant.SetActive(false);
 
